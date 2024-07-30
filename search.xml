@@ -54,9 +54,6 @@
 <h3 id="2、上下标">2、上下标</h3>
 <p>代码:</p>
 <figure class="highlight text"><table><tr><td class="code"><pre><span class="line">x^2^</span><br><span class="line">H~2~O</span><br></pre></td></tr></table></figure>
-<p>效果:<br>
-x^2^<br>
-H~2~O</p>
 <h2 id="四、列表">四、列表</h2>
 <h3 id="1、无序列表">1、无序列表</h3>
 <p>代码:</p>
@@ -107,14 +104,9 @@ H~2~O</p>
 <h3 id="3、任务列表">3、任务列表</h3>
 <p>代码:</p>
 <figure class="highlight text"><table><tr><td class="code"><pre><span class="line">- [ ] 吃早餐</span><br><span class="line">- [x] 背单词</span><br></pre></td></tr></table></figure>
-<p>效果:</p>
-<ul>
-<li>[ ] 吃早餐</li>
-<li>[x] 背单词</li>
-</ul>
 <h2 id="五、区块显示">五、区块显示</h2>
 <p>代码:</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">+回车</span><br></pre></td></tr></table></figure>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">&gt;+回车</span><br></pre></td></tr></table></figure>
 <p>效果:</p>
 <blockquote>
 <p>这是最外层区块</p>
@@ -150,17 +142,11 @@ H~2~O</p>
 <a href="https://www.baidu.com">百度一下</a><br>
 <a href="https://www.baidu.com" title="https://www.baidu.com">百度一下</a></p>
 <p>快捷键:  Ctrl+K</p>
-<h2 id="八、脚注">八、脚注</h2>
-<p>说明:  对文本进行解释说明。</p>
-<p>代码:</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">[^文本]</span><br><span class="line">[^文本]:解释说明</span><br></pre></td></tr></table></figure>
-<p>效果:<br>
-这是一个技术<a href="%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E9%9D%9E%E5%B8%B8%E5%A5%BD%E7%94%A8%E7%9A%84%E6%A1%86%E6%9E%B6%E3%80%82">^①</a></p>
-<h2 id="九、图片插入">九、图片插入</h2>
+<h2 id="八、图片插入">八、图片插入</h2>
 <p>代码:</p>
 <figure class="highlight text"><table><tr><td class="code"><pre><span class="line">![不显示的文字](图片路径 &quot;图片标题&quot;)</span><br></pre></td></tr></table></figure>
 <p>快捷键:  Ctrl+Shift+I</p>
-<h2 id="十、表格">十、表格</h2>
+<h2 id="九、表格">九、表格</h2>
 <p>代码:</p>
 <figure class="highlight text"><table><tr><td class="code"><pre><span class="line">|  1   |  2   |  3   |</span><br><span class="line">| :---： | :--: | ：---: |</span><br><span class="line">|  4   |  5   |  6   |</span><br><span class="line">|  7   |  8   |  9   |</span><br><span class="line">|  10  |  11  |  12  |</span><br></pre></td></tr></table></figure>
 <p>效果:</p>
@@ -191,42 +177,131 @@ H~2~O</p>
 </tbody>
 </table>
 <p>快捷键:  Ctrl+T</p>
-<h2 id="十一、流程图">十一、流程图</h2>
-<h3 id="1、横向流程图">1、横向流程图</h3>
-<p>代码:</p>
- <figure class="highlight text"><table><tr><td class="code"><pre><span class="line">```mermaid</span><br><span class="line">graph LR</span><br><span class="line">A[方形]==&gt;B(圆角)</span><br><span class="line">B==&gt;C&#123;条件a&#125;</span><br><span class="line">C--&gt;|a=1|D[结果1]</span><br><span class="line">C--&gt;|a=2|E[结果2]</span><br><span class="line">F[横向流程图]</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
-<p>效果:</p>
-<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
-  graph LR
-A[方形]&#x3D;&#x3D;&gt;B(圆角)
-B&#x3D;&#x3D;&gt;C{条件a}
-C--&gt;|a&#x3D;1|D[结果1]
-C--&gt;|a&#x3D;2|E[结果2]
-F[横向流程图]
-  </pre></div>
-<h3 id="2、竖向流程图">2、竖向流程图</h3>
-<p>代码:</p>
- <figure class="highlight text"><table><tr><td class="code"><pre><span class="line"> ```mermaid</span><br><span class="line">graph TD</span><br><span class="line">A[方形]==&gt;B(圆角)</span><br><span class="line">B==&gt;C&#123;条件a&#125;</span><br><span class="line">C--&gt;|a=1|D[结果1]</span><br><span class="line">C--&gt;|a=2|E[结果2]</span><br><span class="line">F[竖向流程图]</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
-<p>效果:</p>
-<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
-  graph TD
-A[方形]&#x3D;&#x3D;&gt;B(圆角)
-B&#x3D;&#x3D;&gt;C{条件a}
-C--&gt;|a&#x3D;1|D[结果1]
-C--&gt;|a&#x3D;2|E[结果2]
-F[竖向流程图]
-  </pre></div>
-<h2 id="十二、表情符号">十二、表情符号</h2>
-<p>代码:</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">:happy:、:cry:、:man:</span><br></pre></td></tr></table></figure>
-<p>效果:<br>
-:happy:、 :cry:、 :man:</p>
 ]]></content>
       <categories>
         <category>基本技能</category>
       </categories>
       <tags>
         <tag>Markdown,Typora,Latex</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>阿里木江言语理解</title>
+    <url>/2024/07/30/%E9%98%BF%E9%87%8C%E6%9C%A8%E6%B1%9F%E8%A8%80%E8%AF%AD%E7%90%86%E8%A7%A3/</url>
+    <content><![CDATA[<h1>系统课</h1>
+<h1>一、中心理解题</h1>
+<h2 id="1-宏观的角度">1. 宏观的角度</h2>
+<h3 id="1-1-有总有分类">1.1 有总有分类</h3>
+<h3 id="1-2-提出对策类">1.2 提出对策类</h3>
+<p>复习：</p>
+<p>上节课学习了下图的（1）、（2）两点，本节课学习第（3）点，文段提出问题(分析问题)，未提出对策</p>
+<img src="https://s2.loli.net/2024/07/16/RkKfZdTsehXnNq8.png" alt="image-20240716135305758" style="zoom:50%;" />
+<p>解题要点：</p>
+<p>①有针对性对策优选针对性对策（内容大于形式）</p>
+<p>②没有针对性对策或者对策错误、不靠谱时，选择问题本身的同义替换</p>
+<p>提问方式：意在说明/意在强调，概括最准确的是…</p>
+<p><font color=red>解题方法：</font></p>
+<p><font color=red>优选针对性对策，若无，选择问题表述</font></p>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407301405688.png" alt="image-20240730123946326" style="zoom:80%;" />
+<h3 id="1-3-并列结构类">1.3 并列结构类</h3>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407301405690.png" alt="image-20240730124202525" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407301405691.png" alt="image-20240730124422729" style="zoom:80%;" />
+<p><font color=red>错误选项特点：表述片面/无中生有</font></p>
+<h2 id="2-微观的角度">2. 微观的角度</h2>
+<p>关联关系：转折、因果、必要条件、并列、递进</p>
+<p>转折：（转折关系之后可能话题相反，也可能提出新话题 ）</p>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407301405692.png" alt="image-20240730133057445" style="zoom:80%;" />
+<p>因果：（结论是重点）</p>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407301405693.png" alt="image-20240730133424810" style="zoom:80%;" />
+<p>必要条件：</p>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407301405694.png" alt="image-20240730134003290" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407301405695.png" alt="image-20240730134144267" style="zoom:80%;" />
+<p>并列关系：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407301405696.png" alt="image-20240730134229470"></p>
+<p>递进关系：</p>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407301405697.png" alt="image-20240730135459192" style="zoom:80%;" />
+<blockquote>
+<p>第三讲回顾：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100004.png" alt="image-20240730142706806"></p>
+</blockquote>
+<h1>二、标题填入题（0~2题）</h1>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100005.png" alt="image-20240730144640398" style="zoom:80%;" />
+<h1>三、态度理解题</h1>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100006.png" alt="image-20240730150716664" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100007.png" alt="image-20240730150744572" style="zoom:80%;" />
+<h1>四、道理启示题</h1>
+<p><font color=red>重点：不要就事论事</font></p>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100008.png" alt="image-20240730152256946" style="zoom:80%;" />
+<h1>五、词语理解题</h1>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100009.png" alt="image-20240730154413432" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100010.png" alt="image-20240730154627649" style="zoom:80%;" />
+<h1>六、提炼关键词（0~1题）</h1>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100011.png" alt="image-20240730160300291" style="zoom:80%;" />
+<h1>七、语句填空题</h1>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100012.png" alt="image-20240730161713666" style="zoom:80%;" />
+<blockquote>
+<p>第四讲回顾：</p>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100013.png" alt="image-20240730161904179" style="zoom:80%;" />
+</blockquote>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100014.png" alt="image-20240730162102284" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100015.png" alt="image-20240730163325006" style="zoom:80%;" />
+<h1>八、接语选择题</h1>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100016.png" alt="image-20240730164634309" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100017.png" alt="image-20240730164749188" style="zoom:80%;" />
+<h1>九、逻辑填空题（占总题量1/3~1/4）</h1>
+<h3 id="1-合理假设">1. 合理假设</h3>
+<h4 id="1-1-找搭配">1.1 找搭配</h4>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100018.png" alt="image-20240730173619930" style="zoom:80%;"/>
+<h4 id="1-2-找解释">1.2 找解释</h4>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100019.png" alt="image-20240730180321086" style="zoom:80%;" />
+<h4 id="1-3-找关联">1.3 找关联</h4>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100020.png" alt="image-20240730191452302" style="zoom:80%;" />
+<h5 id="1-找关联：转折">1. 找关联：转折</h5>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100021.png" alt="image-20240730191904092" style="zoom:80%;" />
+<h5 id="2-找关联：并列">2. 找关联：并列</h5>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100022.png" alt="image-20240730192337697" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100023.png" alt="image-20240730192507747" style="zoom:80%;" />
+<h5 id="3-找关联：递进">3. 找关联：递进</h5>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100024.png" alt="image-20240730194301452" style="zoom:80%;" />
+<h5 id="4-找关联：因果">4. 找关联：因果</h5>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100025.png" alt="image-20240730194404743" style="zoom:80%;" />
+<h5 id="5-找关联：条件">5. 找关联：条件</h5>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100026.png" alt="image-20240730195648423" style="zoom:80%;" />
+<h3 id="2-小心求证">2. 小心求证</h3>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100027.png" alt="image-20240730200416441" style="zoom:80%;" />
+<h4 id="2-1-程度轻重">2.1 程度轻重</h4>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100028.png" alt="image-20240730200852313" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100029.png" alt="image-20240730201119605" style="zoom:80%;" />
+<p><img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100030.png" alt="image-20240730201508592"></p>
+<h4 id="2-1-感情色彩">2.1 感情色彩</h4>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100031.png" alt="image-20240730201702416" style="zoom:80%;" />
+<h4 id="2-2-形象表达">2.2 形象表达</h4>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100032.png" alt="image-20240730202239624" style="zoom:80%;" />
+<h4 id="2-3-语法搭配">2.3 语法搭配</h4>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100033.png" alt="image-20240730202556046" style="zoom:80%;" />
+<h1>十、细节判断题</h1>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100034.png" alt="image-20240730202901643" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100035.png" alt="image-20240730203146377" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100036.png" alt="image-20240730203236084" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100037.png" alt="image-20240730203309637" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100038.png" alt="image-20240730203418830" style="zoom:80%;" />
+<h1>十一、语句排序题</h1>
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100039.png" alt="image-20240730204220250" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100040.png" alt="image-20240730204244746" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100041.png" alt="image-20240730204445991" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100042.png" alt="image-20240730204519959" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100043.png" alt="image-20240730204559157" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100044.png" alt="image-20240730204633765" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100045.png" alt="image-20240730204707160" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100046.png" alt="image-20240730204721598" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100047.png" alt="image-20240730204804117" style="zoom:80%;" />
+<p><img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100833.png" alt="image-20240730204932976"></p>
+]]></content>
+      <categories>
+        <category>考公考编</category>
+      </categories>
+      <tags>
+        <tag>言语理解</tag>
       </tags>
   </entry>
 </search>
