@@ -182,17 +182,18 @@
         <category>基本技能</category>
       </categories>
       <tags>
-        <tag>Markdown,Typora,Latex</tag>
+        <tag>Markdown</tag>
+        <tag>Typora</tag>
+        <tag>Latex</tag>
       </tags>
   </entry>
   <entry>
     <title>阿里木江言语理解</title>
     <url>/2024/07/30/%E9%98%BF%E9%87%8C%E6%9C%A8%E6%B1%9F%E8%A8%80%E8%AF%AD%E7%90%86%E8%A7%A3/</url>
-    <content><![CDATA[<h1>系统课</h1>
-<h1>一、中心理解题</h1>
-<h2 id="1-宏观的角度">1. 宏观的角度</h2>
-<h3 id="1-1-有总有分类">1.1 有总有分类</h3>
-<h3 id="1-2-提出对策类">1.2 提出对策类</h3>
+    <content><![CDATA[<h1>中心理解题</h1>
+<h2 id="宏观的角度">宏观的角度</h2>
+<h3 id="有总有分类">有总有分类</h3>
+<h3 id="提出对策类">提出对策类</h3>
 <p>复习：</p>
 <p>上节课学习了下图的（1）、（2）两点，本节课学习第（3）点，文段提出问题(分析问题)，未提出对策</p>
 <img src="https://s2.loli.net/2024/07/16/RkKfZdTsehXnNq8.png" alt="image-20240716135305758" style="zoom:50%;" />
@@ -203,11 +204,11 @@
 <p><font color=red>解题方法：</font></p>
 <p><font color=red>优选针对性对策，若无，选择问题表述</font></p>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407301405688.png" alt="image-20240730123946326" style="zoom:80%;" />
-<h3 id="1-3-并列结构类">1.3 并列结构类</h3>
+<h3 id="并列结构类">并列结构类</h3>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407301405690.png" alt="image-20240730124202525" style="zoom:80%;" />
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407301405691.png" alt="image-20240730124422729" style="zoom:80%;" />
 <p><font color=red>错误选项特点：表述片面/无中生有</font></p>
-<h2 id="2-微观的角度">2. 微观的角度</h2>
+<h2 id="微观的角度">微观的角度</h2>
 <p>关联关系：转折、因果、必要条件、并列、递进</p>
 <p>转折：（转折关系之后可能话题相反，也可能提出新话题 ）</p>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407301405692.png" alt="image-20240730133057445" style="zoom:80%;" />
@@ -224,20 +225,20 @@
 <p>第三讲回顾：</p>
 <p><img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100004.png" alt="image-20240730142706806"></p>
 </blockquote>
-<h1>二、标题填入题（0~2题）</h1>
+<h1>标题填入题（0~2题）</h1>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100005.png" alt="image-20240730144640398" style="zoom:80%;" />
-<h1>三、态度理解题</h1>
+<h1>态度理解题</h1>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100006.png" alt="image-20240730150716664" style="zoom:80%;" />
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100007.png" alt="image-20240730150744572" style="zoom:80%;" />
-<h1>四、道理启示题</h1>
+<h1>道理启示题</h1>
 <p><font color=red>重点：不要就事论事</font></p>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100008.png" alt="image-20240730152256946" style="zoom:80%;" />
-<h1>五、词语理解题</h1>
+<h1>词语理解题</h1>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100009.png" alt="image-20240730154413432" style="zoom:80%;" />
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100010.png" alt="image-20240730154627649" style="zoom:80%;" />
-<h1>六、提炼关键词（0~1题）</h1>
+<h1>提炼关键词（0~1题）</h1>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100011.png" alt="image-20240730160300291" style="zoom:80%;" />
-<h1>七、语句填空题</h1>
+<h1>语句填空题</h1>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100012.png" alt="image-20240730161713666" style="zoom:80%;" />
 <blockquote>
 <p>第四讲回顾：</p>
@@ -245,47 +246,47 @@
 </blockquote>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100014.png" alt="image-20240730162102284" style="zoom:80%;" />
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100015.png" alt="image-20240730163325006" style="zoom:80%;" />
-<h1>八、接语选择题</h1>
+<h1>接语选择题</h1>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100016.png" alt="image-20240730164634309" style="zoom:80%;" />
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100017.png" alt="image-20240730164749188" style="zoom:80%;" />
-<h1>九、逻辑填空题（占总题量1/3~1/4）</h1>
-<h3 id="1-合理假设">1. 合理假设</h3>
-<h4 id="1-1-找搭配">1.1 找搭配</h4>
+<h1>逻辑填空题（占总题量1/3~1/4）</h1>
+<h3 id="合理假设">合理假设</h3>
+<h4 id="找搭配">找搭配</h4>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100018.png" alt="image-20240730173619930" style="zoom:80%;"/>
-<h4 id="1-2-找解释">1.2 找解释</h4>
+<h4 id="找解释">找解释</h4>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100019.png" alt="image-20240730180321086" style="zoom:80%;" />
-<h4 id="1-3-找关联">1.3 找关联</h4>
+<h4 id="找关联">找关联</h4>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100020.png" alt="image-20240730191452302" style="zoom:80%;" />
-<h5 id="1-找关联：转折">1. 找关联：转折</h5>
+<h5 id="找关联：转折">找关联：转折</h5>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100021.png" alt="image-20240730191904092" style="zoom:80%;" />
-<h5 id="2-找关联：并列">2. 找关联：并列</h5>
+<h5 id="找关联：并列">找关联：并列</h5>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100022.png" alt="image-20240730192337697" style="zoom:80%;" />
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100023.png" alt="image-20240730192507747" style="zoom:80%;" />
-<h5 id="3-找关联：递进">3. 找关联：递进</h5>
+<h5 id="找关联：递进">找关联：递进</h5>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100024.png" alt="image-20240730194301452" style="zoom:80%;" />
-<h5 id="4-找关联：因果">4. 找关联：因果</h5>
+<h5 id="找关联：因果">找关联：因果</h5>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100025.png" alt="image-20240730194404743" style="zoom:80%;" />
-<h5 id="5-找关联：条件">5. 找关联：条件</h5>
+<h5 id="找关联：条件">找关联：条件</h5>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100026.png" alt="image-20240730195648423" style="zoom:80%;" />
-<h3 id="2-小心求证">2. 小心求证</h3>
+<h3 id="小心求证">小心求证</h3>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100027.png" alt="image-20240730200416441" style="zoom:80%;" />
-<h4 id="2-1-程度轻重">2.1 程度轻重</h4>
+<h4 id="程度轻重">程度轻重</h4>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100028.png" alt="image-20240730200852313" style="zoom:80%;" />
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100029.png" alt="image-20240730201119605" style="zoom:80%;" />
 <p><img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100030.png" alt="image-20240730201508592"></p>
-<h4 id="2-1-感情色彩">2.1 感情色彩</h4>
+<h4 id="感情色彩">感情色彩</h4>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100031.png" alt="image-20240730201702416" style="zoom:80%;" />
-<h4 id="2-2-形象表达">2.2 形象表达</h4>
+<h4 id="形象表达">形象表达</h4>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100032.png" alt="image-20240730202239624" style="zoom:80%;" />
-<h4 id="2-3-语法搭配">2.3 语法搭配</h4>
+<h4 id="语法搭配">语法搭配</h4>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100033.png" alt="image-20240730202556046" style="zoom:80%;" />
-<h1>十、细节判断题</h1>
+<h1>细节判断题</h1>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100034.png" alt="image-20240730202901643" style="zoom:80%;" />
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100035.png" alt="image-20240730203146377" style="zoom:80%;" />
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100036.png" alt="image-20240730203236084" style="zoom:80%;" />
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100037.png" alt="image-20240730203309637" style="zoom:80%;" />
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100038.png" alt="image-20240730203418830" style="zoom:80%;" />
-<h1>十一、语句排序题</h1>
+<h1>语句排序题</h1>
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100039.png" alt="image-20240730204220250" style="zoom:80%;" />
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100040.png" alt="image-20240730204244746" style="zoom:80%;" />
 <img src="https://cdn.jsdelivr.net/gh/LHO2O/MindFrame@main/img/202407302100041.png" alt="image-20240730204445991" style="zoom:80%;" />
