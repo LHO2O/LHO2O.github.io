@@ -1,6 +1,235 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>MarkDown的基本使用</title>
+    <url>/2024/07/30/MarkDown%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<h2 id="一、标题">一、标题</h2>
+<p>语法：# (一级标题)  ## (二级标题)  ### (三级标题) …</p>
+<p>代码：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line"># 这是一级标题</span><br><span class="line">## 这是二级标题</span><br></pre></td></tr></table></figure>
+<p>快捷键:</p>
+<ul>
+<li>Ctrl + 数字1~6 可以快速将选中的文本调成对应级别的标题</li>
+<li>Ctrl + 0 可以快速将选中的文本调成普通文本</li>
+<li>Ctrl + 加号/减号 对标题级别进行加减</li>
+</ul>
+<h2 id="二、段落">二、段落</h2>
+<h3 id="1、换行">1、换行</h3>
+<p>代码:</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">这是一个段落</span><br><span class="line">这是一个段落</span><br></pre></td></tr></table></figure>
+<p>效果:</p>
+<p>这是一个段落<br>
+这是一个段落</p>
+<h3 id="2、分割线">2、分割线</h3>
+<p>语法:  —或者***+回车</p>
+<p>代码:</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">---或者***</span><br></pre></td></tr></table></figure>
+<p>效果:</p>
+<hr>
+<h2 id="三、文字显示">三、文字显示</h2>
+<h3 id="1、字体">1、字体</h3>
+<p>语法:</p>
+<ul>
+<li>粗体:  用一对双星号包裹</li>
+<li>删除线:  用一对双飘号包裹</li>
+<li>下划线:  用一对u标签包裹</li>
+<li>斜体:  用一对单星号包裹</li>
+<li>高亮:  用一对双等号包裹</li>
+</ul>
+<p>代码:</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">**这是粗体**</span><br><span class="line">~~这是删除线~~</span><br><span class="line">&lt;u&gt;这是下划线&lt;/u&gt;</span><br><span class="line">*这是斜体*</span><br><span class="line">==这是高亮==</span><br></pre></td></tr></table></figure>
+<p>效果:<br>
+<strong>这是粗体</strong><br>
+<s>这是删除线</s><br>
+<u>这是下划线</u><br>
+<em>这是斜体</em><br>
+==这是高亮==</p>
+<p>快捷键:</p>
+<ul>
+<li>加粗:  Ctrl+B</li>
+<li>删除线:  Shift+Alt+5</li>
+<li>下划线:  Ctrl+U</li>
+<li>斜体:  Ctrl+I</li>
+</ul>
+<h3 id="2、上下标">2、上下标</h3>
+<p>代码:</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">x^2^</span><br><span class="line">H~2~O</span><br></pre></td></tr></table></figure>
+<p>效果:<br>
+x^2^<br>
+H~2~O</p>
+<h2 id="四、列表">四、列表</h2>
+<h3 id="1、无序列表">1、无序列表</h3>
+<p>代码:</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">*/-/+ +空格</span><br></pre></td></tr></table></figure>
+<p>效果:<br>
+1.只有同一级别:</p>
+<ul>
+<li>苹果</li>
+<li>香蕉</li>
+<li>橘子</li>
+</ul>
+<p>2.子集类:</p>
+<ul>
+<li>一级分类
+<ul>
+<li>二级分类
+<ul>
+<li>三级分类</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>快捷键:  Ctrl+Shift+]</p>
+<h3 id="2、有序列表">2、有序列表</h3>
+<p>代码:</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">数字+.+空格</span><br></pre></td></tr></table></figure>
+<p>效果:</p>
+<ol>
+<li>
+<p>第一个标题</p>
+</li>
+<li>
+<p>第二个标题</p>
+</li>
+<li>
+<p>第三个标题</p>
+<ul>
+<li>子内容1</li>
+<li>子内容2</li>
+</ul>
+</li>
+<li>
+<p>第四个标题</p>
+</li>
+</ol>
+<p>快捷键:  Ctrl+Shift+[</p>
+<h3 id="3、任务列表">3、任务列表</h3>
+<p>代码:</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">- [ ] 吃早餐</span><br><span class="line">- [x] 背单词</span><br></pre></td></tr></table></figure>
+<p>效果:</p>
+<ul>
+<li>[ ] 吃早餐</li>
+<li>[x] 背单词</li>
+</ul>
+<h2 id="五、区块显示">五、区块显示</h2>
+<p>代码:</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">+回车</span><br></pre></td></tr></table></figure>
+<p>效果:</p>
+<blockquote>
+<p>这是最外层区块</p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>这是内层区块</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>这是最内层区块</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="六、代码显示">六、代码显示</h2>
+<h3 id="1、行内代码">1、行内代码</h3>
+<p>代码:</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">`int a=0;`（说明：`位于Esc下面）</span><br></pre></td></tr></table></figure>
+<p>效果:<br>
+<code>int a=0;</code></p>
+<p>快捷键:  Ctrl+Shift+`</p>
+<h3 id="2、代码块">2、代码块</h3>
+<p>代码:</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">```js/java/c#/text</span><br><span class="line">内容</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+<p>快捷键:  Ctrl+Shift+K</p>
+<h2 id="七、链接">七、链接</h2>
+<p>代码:</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">www.baidu.com</span><br><span class="line">[百度一下](https://www.baidu.com)</span><br><span class="line">[百度一下](https://www.baidu.com &quot;https://www.baidu.com&quot;)</span><br></pre></td></tr></table></figure>
+<p>效果:<br>
+<a href="http://www.baidu.com">www.baidu.com</a><br>
+<a href="https://www.baidu.com">百度一下</a><br>
+<a href="https://www.baidu.com" title="https://www.baidu.com">百度一下</a></p>
+<p>快捷键:  Ctrl+K</p>
+<h2 id="八、脚注">八、脚注</h2>
+<p>说明:  对文本进行解释说明。</p>
+<p>代码:</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">[^文本]</span><br><span class="line">[^文本]:解释说明</span><br></pre></td></tr></table></figure>
+<p>效果:<br>
+这是一个技术<a href="%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E9%9D%9E%E5%B8%B8%E5%A5%BD%E7%94%A8%E7%9A%84%E6%A1%86%E6%9E%B6%E3%80%82">^①</a></p>
+<h2 id="九、图片插入">九、图片插入</h2>
+<p>代码:</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">![不显示的文字](图片路径 &quot;图片标题&quot;)</span><br></pre></td></tr></table></figure>
+<p>快捷键:  Ctrl+Shift+I</p>
+<h2 id="十、表格">十、表格</h2>
+<p>代码:</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">|  1   |  2   |  3   |</span><br><span class="line">| :---： | :--: | ：---: |</span><br><span class="line">|  4   |  5   |  6   |</span><br><span class="line">|  7   |  8   |  9   |</span><br><span class="line">|  10  |  11  |  12  |</span><br></pre></td></tr></table></figure>
+<p>效果:</p>
+<table>
+<thead>
+<tr>
+<th>1</th>
+<th style="text-align:center">2</th>
+<th style="text-align:right">3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4</td>
+<td style="text-align:center">5</td>
+<td style="text-align:right">6</td>
+</tr>
+<tr>
+<td>7</td>
+<td style="text-align:center">8</td>
+<td style="text-align:right">9</td>
+</tr>
+<tr>
+<td>10</td>
+<td style="text-align:center">11</td>
+<td style="text-align:right">12</td>
+</tr>
+</tbody>
+</table>
+<p>快捷键:  Ctrl+T</p>
+<h2 id="十一、流程图">十一、流程图</h2>
+<h3 id="1、横向流程图">1、横向流程图</h3>
+<p>代码:</p>
+ <figure class="highlight text"><table><tr><td class="code"><pre><span class="line">```mermaid</span><br><span class="line">graph LR</span><br><span class="line">A[方形]==&gt;B(圆角)</span><br><span class="line">B==&gt;C&#123;条件a&#125;</span><br><span class="line">C--&gt;|a=1|D[结果1]</span><br><span class="line">C--&gt;|a=2|E[结果2]</span><br><span class="line">F[横向流程图]</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+<p>效果:</p>
+<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
+  graph LR
+A[方形]&#x3D;&#x3D;&gt;B(圆角)
+B&#x3D;&#x3D;&gt;C{条件a}
+C--&gt;|a&#x3D;1|D[结果1]
+C--&gt;|a&#x3D;2|E[结果2]
+F[横向流程图]
+  </pre></div>
+<h3 id="2、竖向流程图">2、竖向流程图</h3>
+<p>代码:</p>
+ <figure class="highlight text"><table><tr><td class="code"><pre><span class="line"> ```mermaid</span><br><span class="line">graph TD</span><br><span class="line">A[方形]==&gt;B(圆角)</span><br><span class="line">B==&gt;C&#123;条件a&#125;</span><br><span class="line">C--&gt;|a=1|D[结果1]</span><br><span class="line">C--&gt;|a=2|E[结果2]</span><br><span class="line">F[竖向流程图]</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+<p>效果:</p>
+<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
+  graph TD
+A[方形]&#x3D;&#x3D;&gt;B(圆角)
+B&#x3D;&#x3D;&gt;C{条件a}
+C--&gt;|a&#x3D;1|D[结果1]
+C--&gt;|a&#x3D;2|E[结果2]
+F[竖向流程图]
+  </pre></div>
+<h2 id="十二、表情符号">十二、表情符号</h2>
+<p>代码:</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">:happy:、:cry:、:man:</span><br></pre></td></tr></table></figure>
+<p>效果:<br>
+:happy:、 :cry:、 :man:</p>
+]]></content>
+      <categories>
+        <category>基本技能</category>
+      </categories>
+      <tags>
+        <tag>Markdown,Typora,Latex</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2024/07/30/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -18,10 +247,5 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>MarkDown的基本使用</title>
-    <url>/2024/07/30/MarkDown%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[]]></content>
   </entry>
 </search>
